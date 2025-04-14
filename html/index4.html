@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="server.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="firstname" id="name" placeholder="write your name here!"> 
+    <lable for="Surname">Surname:</lable>
+    <input type="text" name="lastname" id="Surname">
+    <lable for="email">Email:</lable>
+    <input type="email" name="email" id="email"><br>
+    <lable for="date of birth"> Date of Birth:</lable>
+    <input type="date" name="birth" id="date of birth">
+ <fieldset>
+       <legend>Sex</legend>
+       <input type="radio" name="sex" id="female">
+       <label for="fem">Female</label>
+       <input type="radio" name="sex" id="male">
+       <lable for="mal">Male</lable>
+       <input type="radio" name="sex" id="unidentified">
+       <label for="unidentified">Unidentified</label>
+    </fieldset>
+<fieldset>
+    <legend>Country of Origin</legend>
+    <input type="radio" name="cof" id="country">
+    <label for="country">Spain</label>
+    <input type="radio" name="cof" id="country">
+    <label for="country">France</label>
+</fieldset>
+<input type="submit">
+<input type="reset">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+
+
+
+
+
+.box{
+border:4px solid rgb(0, 174, 255);
+border-radius: 4px;
+width:300px;
+
+}
+.wrapper{
+    border:4px solid rgb(166, 50, 205);
+    margin: 20px;
+    padding: 16px;
+}
+
+button{
+    outline: none;
+    border: 2px solid rgb(255, 0, 68);
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    padding:3px 18px;
+}
+
+button:hover{
+    background-color: rgba(196, 181, 16, 0.539);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+

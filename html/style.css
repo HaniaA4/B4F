@@ -1,0 +1,31 @@
+button{
+    outline: none;
+    border: 2px solid lime;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    padding:18px;
+    margin-bottom: 50px;
+}
+
+button:hover{
+    background-color: blue;
+    color: aqua;
+    cursor: pointer;
+}
+
+li:nth-child(){
+    background-color: brown;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+

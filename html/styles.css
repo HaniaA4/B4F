@@ -1,0 +1,45 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.section-title {
+    background-color: brown;
+}
+
+.products-title {
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Roboto;
+}
+
+p {
+    font-size: 22px;
+}
+
+.heading {
+    font-size: 35px;
+}
+
+
+.content {
+    font-size: 8px;
+}
+
+.box{
+    color: pink;
+}
+
+
+h1 {
+    font-size: 33px;
+    
+}
+h1+p {
+    
+    font-weight: bold;
+    background-color: grey;
+    color:#fa8072;
+    padding: .5em;  
+}
